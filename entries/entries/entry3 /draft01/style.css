@@ -1,0 +1,145 @@
+h3{
+font-family: 'Sporting Grotesque', sans-serif;
+font-size: 30px;
+padding: 10px;
+border:30px;
+margin: 50px;
+margin-top: 30px;
+}
+
+.sections {
+	position: relative;
+	margin: 30px;
+	font-family: 'Sporting Grotesque', sans-serif;
+font-size: 30px;
+}
+
+
+.vertical-line {
+background-color: black;
+top:500px;
+width: 2px;
+left: 50%;
+  border-left: 1px solid #000; /* Change the color and width as needed */
+  height: 800px; /* Adjust the height as needed */
+  margin-left: 50%;
+}
+
+.vertical-line1 {
+background-color: black;
+top:500px;
+width: 2px;
+left: 50%;
+  border-left: 1px solid #000; /* Change the color and width as needed */
+  height: 800px; /* Adjust the height as needed */
+  margin-left: 50%;
+}
+
+
+
+h1{
+font-family: 'Sporting Grotesque', sans-serif;
+font-size: 150px;
+padding: 10px;
+border:20px;
+margin: 10px;
+line-height: 100%;
+}
+
+h4{
+font-family: 'Sporting Grotesque', sans-serif;
+font-size:70px;
+padding: 10px;
+border:10px;
+margin:10px;
+margin-left: 200px;
+margin-right: 200px;
+line-height: 100%;
+	
+}
+
+h2{
+
+
+}
+
+.subhead {
+	font-family: 'Sporting Grotesque', sans-serif;
+	font-size: 100px;
+	font-kerning: 30px;
+	padding: 10px;
+	border:20px;
+	margin: 10px;
+}
+
+
+.ing{
+font-family: 'Sporting Grotesque', sans-serif;
+font-size: 30px;
+padding: 10px;
+border: 20px;
+margin-left: 200px;
+margin-right: 200px;
+line-height: 100%;
+position: relative;
+}
+
+#garlic { 
+left: 40px;
+}
+
+#ginger {
+	left: 300px;
+}
+
+#onion {
+	right: 200px;
+
+}
+
+#pork{
+	right:;
+
+}
+#soy {
+	left:150px;	
+}
+#wine{
+	right:350px;
+}
+#sugar {
+	left
+}
+
+#shallot{
+	left: 200px;
+}
+
+#scallion {
+	right:200px;
+}
+
+ol { 
+font-family: 'Sporting Grotesque', sans-serif; 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
