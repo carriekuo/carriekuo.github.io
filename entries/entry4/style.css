@@ -1,0 +1,183 @@
+body {
+	margin-bottom: 80px;
+  background:#0f4c5c;
+
+}
+
+
+h3{
+ 
+font-family: 'Petit Formal Script', cursive;
+color: greenyellow;
+font-size: 30px;
+padding: 10px;
+border:20px;
+margin-top: 30px;
+}
+
+h1{
+font-family: 'Petit Formal Script', cursive;
+color: #fb8b24;
+font-size: 200px;
+padding: 10px;
+border:20px;
+margin: -5px;
+line-height: 100%;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.image  {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+   width: 50%,
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text{
+	font-family: 'Source Code Pro', monospace;
+  color: #f2f3ae;
+  font-size: 25px;
+  padding: 16px 32px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.center:hover {
+   content: url("file:///Users/carriekuo/Downloads/IMG_0707.JPG");
+   width: 30px,
+   height: auto;
+   object-fit: initial;
+ 
+} 
+
+
+.vertical-line {
+background-color: greenyellow;
+top:500px;
+width: 3px;
+left: 50%;
+margin-top: 50px;
+margin-bottom: 50px;
+  border-left: 1px ; /* Change the color and width as needed */
+  height: 800px; /* Adjust the height as needed */
+  margin-left: 50%;
+}
+
+  .card {
+         width: 250px;
+         height: 195px;
+         background:
+         url("https://www.tutorialspoint.com/dip/images/black_and_white.jpg") norepeat;
+         display: inline-block;
+      }
+      .card :hover {
+         background:
+         url("https://www.tutorialspoint.com/dip/images/einstein.jpg") no-repeat;
+       }
+
+
+
+p{
+		font-family: 'Source Code Pro', monospace;
+		fonnt font-size: 50px;
+		color: #fb8b24;
+width: 500px;
+border:20px;
+margin: 30px;
+margin-left: 500px;
+left: 100px ;
+
+}
+
+.subhead {
+margin-top: 60px;
+transition: all 0.5s ease;
+
+}
+
+.subhead:hover {
+  -webkit-transform: rotate(-360deg) scale(2);
+  transform: rotate(-360deg) scale(2);
+  cursor: pointer;
+}
+
+.subhead {
+font-family: 'Petit Formal Script', cursive;
+	font-size: 150px;
+	color: #f2f3ae;
+	font-kerning: 30px;
+	padding: 10px;
+	border:20px;
+	margin: 90px;
+
+}
+
+
+.ing{
+	font-family: 'Source Code Pro', monospace;
+font-size: 30px;
+color: #fb8b24;
+padding: 10px;
+border: 20px;
+margin-left: 200px;
+margin-right: 200px;
+line-height: 100%;
+position: relative;
+}
+
+
+   }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
