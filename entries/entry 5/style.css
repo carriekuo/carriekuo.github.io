@@ -1,5 +1,63 @@
+body {
+  margin-bottom: 80px;
+  background:black;
+
+}
+
+h1{
+font-family: 'Petit Formal Script', cursive;
+color: #fb8b24;
+font-size: 200px;
+padding: 10px;
+border:20px;
+margin: -5px;
+line-height: 100%;
+}
 
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;}
+
+.centered {
+font-family: 'Nanum Pen Script', cursive;
+color: black;
+font-size: 150px;
+padding: 10px;
+border:20px;
+margin: -5px;
+line-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container2 {
+  font-family: 'Nanum Pen Script', cursive;
+font-size: 70px;
+  position: relative;
+  text-align: center;
+  color: white;}
+
+
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px; /* Adjust the gap between images */
+}
+
+.image {
+    overflow: hidden; /* Optional: Clip images if they are different sizes */
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 
 
 
