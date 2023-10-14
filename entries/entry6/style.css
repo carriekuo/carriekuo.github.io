@@ -1,0 +1,136 @@
+body {
+  margin-bottom: 80px;
+  background:#FFF9C9;
+
+}
+
+h3{
+ 
+font-family: 'Source Code Pro', monospace;
+color: darkgreen;
+font-size: 30px;
+margin-top: 30px;
+margin-bottom: -100px;
+}
+
+h1{
+font-family: 'Petit Formal Script', cursive;
+color: #fb8b24;
+font-size: 200px;
+padding: 10px;
+border:20px;
+margin: -5px;
+line-height: 100%;
+}
+
+.subhead {
+font-family: 'Petit Formal Script', cursive;
+  font-size: 150px;
+  color: #f2f3ae;
+  font-kerning: 30px;
+  padding: 10px;
+  border:20px;
+  margin: 90px;
+
+}
+
+.title{
+  width:1300px;
+  margin-left: 50px;
+}
+
+.title-ing{
+  width: 1100px;
+  height: 500px;
+  margin-left: 150px;
+}
+
+
+.centered {
+font-family: 'Nanum Pen Script', cursive;
+color: black;
+font-size: 150px;
+padding: 10px;
+border:20px;
+margin: -5px;
+line-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container2 {
+  font-family: 'Nanum Pen Script', cursive;
+font-size: 70px;
+  position: relative;
+  text-align: center;
+  color: white;}
+
+
+
+
+.ing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+}
+
+.ins-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+.ing {
+    overflow: hidden; /* Optional: Clip images if they are different sizes */
+}
+
+.ing img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+.ing {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  margin-top: 100px;
+
+}
+
+
+.center:hover{
+    content: url("images/after.png");
+   height: auto;
+   object-fit: initial;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
