@@ -24,8 +24,7 @@ h2{
 .center-container {
     display: flex;
     flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+    left:50%;
 }
 
 .ing {
