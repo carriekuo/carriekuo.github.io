@@ -1,0 +1,176 @@
+body {
+	margin-bottom: 80px;
+  background:lightblue;
+
+}
+
+
+h3{
+font-family: 'Sporting Grotesque', sans-serif;
+color: black;
+font-size: 30px;
+padding: 10px;
+border:30px;
+margin: 50px;
+margin-top: 30px;
+}
+
+h1{
+font-family: 'Sporting Grotesque', sans-serif;
+color: orangered;
+font-size: 150px;
+padding: 10px;
+border:20px;
+margin: 10px;
+line-height: 100%;
+}
+
+h4{
+font-family: 'Sporting Grotesque', sans-serif;
+color: orangered;
+font-size:70px;
+padding: 10px;
+border:10px;
+margin:10px;
+margin-left: 200px;
+margin-right: 200px;
+line-height: 100%;
+	
+}
+
+
+
+.sections {
+	position: relative;
+	margin: 10px;
+	font-family: 'Sporting Grotesque', sans-serif;
+font-size: 30px;
+}
+
+a.one:link {color:black;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#ffcc00;}
+
+a.two:link {color:black;}
+a.two:visited {color:#0000ff;}
+a.two:hover {color:#ffcc00;}
+
+a.three:link {color:#ff0000;}
+a.three:visited {color:#0000ff;}
+a.three:hover {color:#ffcc00;}
+
+.one {
+	margin-left: 40px;
+}
+.two {
+margin-left: 600px;
+}
+
+.three {
+margin-left: 1200px;
+}
+
+.vertical-line {
+background-color: greenyellow;
+top:500px;
+width: 3px;
+left: 50%;
+margin-top: 50px;
+margin-bottom: 50px;
+  border-left: 1px ; /* Change the color and width as needed */
+  height: 800px; /* Adjust the height as needed */
+  margin-left: 50%;
+}
+
+
+
+
+p{
+	font-family: 'Sporting Grotesque', sans-serif; 
+width: 500px;
+border:20px;
+margin: 30px;
+margin-left: 500px;
+left: 100px ;
+
+}
+
+.subhead {
+	font-family: 'Sporting Grotesque', sans-serif;
+	font-size: 100px;
+	color: orangered;
+	font-kerning: 30px;
+	padding: 10px;
+	border:20px;
+	margin: 10px;
+}
+
+
+.ing{
+font-family: 'Sporting Grotesque', sans-serif;
+font-size: 30px;
+padding: 10px;
+border: 20px;
+margin-left: 200px;
+margin-right: 200px;
+line-height: 100%;
+position: relative;
+}
+
+#garlic { 
+left: 40px;
+}
+
+#ginger {
+	left: 300px;
+}
+
+#onion {
+	right: 200px;
+
+}
+
+#pork{
+	right:;
+
+}
+#soy {
+	left:150px;	
+}
+#wine{
+	right:350px;
+}
+#sugar {
+	left
+}
+
+#shallot{
+	left: 200px;
+}
+
+#scallion {
+	right:200px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
