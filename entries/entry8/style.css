@@ -1,0 +1,119 @@
+body{
+    background: blue;
+}
+
+#titlesvg {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-bottom: 200px;
+  fill: red; /* Set the initial background color */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: linear; /* Add the timing function */
+  animation-iteration-count: infinite; /* Make the animation run infinitely */
+  color: white; /* Add a contrasting text color for readability */
+}
+
+@keyframes example {
+  0%   {fill: hotpink;}
+  25%  {fill: yellow;}
+  50%  {fill: yellowgreen;}
+  100% {fill: orange;}
+}
+
+
+.measurements {
+    display: none;
+    font-family: monospace;
+    background: yellow;
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 6px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.soupbutton {
+ display: none;
+    font-family: monospace;
+    background: greenyellow;
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 6px;
+    margin-left: 200px;
+    margin-right: 200px;   
+}
+
+.dumplingbutton {
+ display: none;
+    font-family: monospace;
+    background: orange;
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 6px;
+    margin-left: 200px;
+    margin-right: 200px;   
+}
+
+.servebutton {
+ display: none;
+    font-family: monospace;
+    background: hotpink;
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 6px;
+    margin-left: 200px;
+    margin-right: 200px;   
+}
+
+
+.ing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+
+}
+.ing img {
+    width: 100%;
+    height: auto;
+}
+
+.soupbase {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%; 
+}
+
+.soupstep img{
+    width: 100%;
+    height: auto;
+
+}
+
+.dumpling {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%; 
+}
+
+.dumplingstep img{
+    width: 100%;
+    height: auto;
+}
+
+.final {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; 
+}
+
+.finalstep img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+

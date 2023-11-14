@@ -1,5 +1,58 @@
 body {
   margin-bottom: 80px;
-  background:#FFF9C9;
+  background:greenyellow;
 
 }
+
+#title{
+margin-top: -10px;
+margin-bottom: -10px;
+color: darkblue;
+}
+
+
+.notebook {
+margin-top: -10px;
+}
+
+.entries{
+font-family: 'Sporting Grotesque', sans-serif;
+color: orangered;
+font-size: 20px;
+padding: 10px;
+border:30px;
+margin: 50px;
+margin-top: 30px;
+}
+
+ .notebook {
+      position: relative;
+    }
+
+    .notebook img {
+      width: 100%; /* Make the image fill the container */
+      height: auto;
+      display: block;
+    }
+
+    .entries {
+      position: absolute;
+      top: 110%; /* Adjust as needed */
+      left: 50%; /* Adjust as needed */
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      column-count: 3;
+      column-gap: 50px; /* Adjust as needed */
+    }
+
+    .entries div {
+      margin-bottom: 10px;
+    }
+
+    .entries a {
+      display: block;
+      background: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
+      padding: 10px;
+      margin: 5px;
+      border-radius: 5px;
+    }
