@@ -6,12 +6,12 @@
 	.st0{fill:none;}
 	.st1{font-family:'SportingGrotesque-Bold';}
 	.st2{font-size:37.5553px;}
-	.st3{font-family:'NeueKabel-Regular';}
-	.st4{font-size:21px;}
+	.st3{font-family:'SportingGrotesque-Regular';}
+	.st4{font-size:12px;}
 </style>
 <rect y="6" class="st0" width="629.2" height="201.8"/>
 <g>
 	<text transform="matrix(1 0 0 1 61.6416 93.6632)" class="st1 st2">Recipes of the Week</text>
-	<text transform="matrix(1 0 0 1 199.2009 144.8958)" class="st3 st4">10 weeks of delicious dishes</text>
+	<text transform="matrix(1 0 0 1 222.0289 128.7395)" class="st3 st4">10 weeks of delicious dishes</text>
 </g>
 </svg>
