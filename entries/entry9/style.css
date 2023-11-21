@@ -1,0 +1,76 @@
+body{
+    background: ;
+}
+
+
+#title{
+  position: relative;
+  animation: bounce 1s ease infinite; /* Apply the bounce animation */
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0); /* Start and end at the original position */
+  }
+  50% {
+    transform: translateY(-20px); /* Bounce up halfway */
+  }
+}
+
+.heading{
+    font-size: 80px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 10px;
+    border:20px;
+    margin: 10px;
+    line-height: 100%;
+    margin-left: 10%;
+
+}
+
+.ing-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+
+
+}
+.ing img {
+    width: 100%;
+    height: auto;
+}
+
+
+#add{
+    margin-left: 10%;
+    font-size: monospace;
+}
+
+
+
+#stepsList {
+    margin-left: 10%;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+}
+
+
+.review {
+     font-family: 'Ubuntu', sans-serif;
+     line-height: 1.5;
+     margin-right: 60px;
+
+}
+.container {
+  display: flex;
+  align-items: center; /* Optional: Align vertically */
+}
+
+.container img {
+  width: 60%; /* Set your image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Optional: Adjust spacing between image and text */
+}
+
+

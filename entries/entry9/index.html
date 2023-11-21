@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+
+
+        
+
+	</head>
+	<body>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="title" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 629.2 201.8">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: KdamThmorPro-Regular, 'Kdam Thmor Pro';
+        font-size: 56px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(27.82 111.96)"><tspan x="0" y="0">Tomato Egg Drop Soup</tspan></text>
+</svg>
+
+
+<div class="heading"> Ingredients: </div>
+
+  <div class="ing-grid">
+        <div class="ing"><img src="images/stock.png" alt="Image 1"></div>
+        <div class="ing"><img src="images/water.png" alt="Image 3"></div>
+        <div class="ing"><img src="images/soysauce.png" alt="Image 4"></div>
+        <div class="ing"><img src="images/sesameoil.png" alt="Image 5"></div>
+        <div class="ing"><img src="images/tomato.png" alt="Image 6"></div>
+        <div class="ing"><img src="images/eggs.png" alt="Image 7"></div>
+        <div class="ing"><img src="images/pepper.png" alt="Image 8"></div>
+        <div class="ing"><img src="images/scallion.png" alt="Image 9"></div>
+  
+
+    </div>
+
+
+<div class="heading"> Instructions: </div>
+
+<button id="add">Next Step</button>
+  <ul id="stepsList"></ul>
+
+
+  <script>
+
+
+    document.getElementById('add').addEventListener('click', function() {
+        const steps = [
+            "Heat oil in a soup pot over medium low heat.",
+            "Add tomato chunks and stir fry for 5 minutes until the tomatoes are softened and start to fall apart.",
+            "Add in 1 cup of chicken stock or water or both, 2 tsp light soy sauce, 1/2 tsp sesame oil, white pepper, salt to taste.",
+            "Bring to a boil, and lower the heat to a simmer. Cover with a lid.",
+            "Beat eggs in a small bowl.",
+            "Use a ladle to slowly swirl the soup. Keep swirling and pour a thin stream of the egg in the whirlpool.",
+            "Ladle the soup into bowls and garnish with more sesame oil and scallions."
+
+        ];
+
+        const stepsList = document.getElementById('stepsList');
+        const currentStep = stepsList.children.length + 1;
+
+        if (currentStep <= steps.length) {
+            const listItem = document.createElement('li');
+            listItem.textContent = currentStep + '. ' + steps[currentStep - 1];
+            stepsList.appendChild(listItem);
+        } else {
+            // All steps are displayed
+            alert('All steps completed!');
+        }
+
+    });
+  </script>
+
+<div class="container">
+  <img src="images/final.png" alt="Your Image">
+  <p class="review">This soup is cherished for its simplicity and lightness. It typically consists of a clear broth flavored with tomatoes, seasoned with various aromatics, and ribbons or "flowers" of egg within the soup.</p>
+</div>
+  
+
+	</body>
+</html>
