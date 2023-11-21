@@ -14,15 +14,19 @@
 	.st8{font-family:'KdamThmorPro-Regular';}
 	.st9{font-size:56px;}
 </style>
-<g id="Layer_1" class="st0">
-	<rect y="6" class="st1" width="629.2" height="201.8"/>
-	<g class="st2">
-		<text transform="matrix(1 0 0 1 61.6416 93.6631)" class="st3 st4">Recipes of the Week</text>
-		<text transform="matrix(1 0 0 1 222.0289 128.7395)" class="st5 st6">10 weeks of delicious dishes</text>
+<g id="Layer_1">
+	<g id="Layer_1_00000137825011056906411780000006006002828999248296_" class="st0">
+		<rect y="6" class="st1" width="629.2" height="201.8"/>
+		<g class="st2">
+			<text transform="matrix(1 0 0 1 61.6416 93.6631)" class="st3 st4">Recipes of the Week</text>
+			<text transform="matrix(1 0 0 1 222.0289 128.7395)" class="st5 st6">10 weeks of delicious dishes</text>
+		</g>
+	</g>
+	<g id="Layer_2_00000021835445684010811090000016307974674334453153_">
+		<rect x="27.8" y="70.8" class="st7" width="595.1" height="89.9"/>
+		<text transform="matrix(1 0 0 1 27.8168 117.9609)" class="st8 st9">Tomato Egg Drop Soup</text>
 	</g>
 </g>
 <g id="Layer_2">
-	<rect x="27.8" y="70.8" class="st7" width="595.1" height="89.9"/>
-	<text transform="matrix(1 0 0 1 27.8168 117.961)" class="st8 st9">Tomato Egg Drop Soup</text>
 </g>
 </svg>
