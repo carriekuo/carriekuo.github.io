@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Pixelify+Sans&family=Rajdhani&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+        
+
+	</head>
+	<body>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="titlesvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 808.69 222.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: NeulisCursive-Italic, 'Neulis Cursive';
+        font-size: 54.7px;
+        font-style: italic;
+      }
+
+      .cls-3 {
+        font-family: 'Dogica_Pixel', 'Dogica Pixel';
+        font-size: 40px;
+      }
+
+      .cls-4 {
+        font-family: GB18030Bitmap, GB18030Bitmap;
+        font-size: 35.33px;
+      }
+
+      .cls-5 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Layer_2" data-name="Layer 2">
+      <rect class="cls-1" y="55.56" width="808.69" height="122.17"/>
+      <text class="cls-5" transform="translate(239.35 55.55)"><tspan class="cls-3"><tspan x="0" y="0">Stir-fried </tspan></tspan><tspan class="cls-3" x="-126.76" y="65.65">Vermicelli Noodles</tspan><tspan class="cls-2" x="443.24" y="65.65"> </tspan></text>
+      <text class="cls-4" transform="translate(338.26 182.87)"><tspan x="0" y="0">炒米粉</tspan></text>
+    </g>
+  </g>
+</svg>
+
+	
+  <div class="heading"> Ingredients </div>
+
+  <div class="ing-grid">
+        <div class="ing" id= "cabbage" ><img src="images/cabbage.png" ></div>
+        <div class="ing" id= "pumpkin" ><img src="images/pumpkin.png" ></div>
+        <div class="ing" id= "garlic" ><img src="images/garlic.png" ></div>
+        <div class="words"> 1/4 cabbage finely sliced</div>
+        <div class="words"> 500 gr chopped kabocha squash</div>
+        <div class="words"> 4 cloves minced garlic</div>
+        <div class="ing" id= "onion" ><img src="images/onion.png" ></div>
+        <div class="ing" id= "scallion" ><img src="images/scallion.png" ></div>
+        <div class="ing" id= "mushroom" ><img src="images/mushroom.png" ></div>
+         <div class="words"> 1 small onion sliced</div>
+        <div class="words"> 2 scallions chopped</div>
+        <div class="words"> 5 shiitake mushrooms soaked and thinkly sliced</div>
+        <div class="ing" id= "noodles"><img src="images/noodles.png" ></div>
+        <div class="ing" id= "eggs"><img src="images/eggs.png" ></div>
+        <div class="ing" id= "shrimp"><img src="images/shrimp.png"></div>
+         <div class="words"> 200gr dried vermicelli noodles</div>
+        <div class="words"> 3 eggs whisked </div>
+        <div class="words"> 1/4c dried shrimp</div>
+        
+    </div>
+
+<div class="heading2"> Instructions </div>
+
+<div class="steps">
+  <p> 1. Prep ingredients.
+  <p> 2. Preheat pan. Add cooking oil and saute shiitake mushrooms until lightly golden brown.</p>
+  <p> 3. Add onion, garlic, dried shrimp. Saute until aromatic. About 2 minutes. </p>
+  <p> 4. Push everything to the side of the pan. Scrambled the eggs mix everything in togehter.</p>
+  <p> 5. Add pre-soaked vermicelli noodles followed by the seasonings. Stir to combine. You can use a tong to help you to move things around so they are evenly combined. </p>
+  <p> 6. Add the shredded pumpkin and toss everything to combine. </p>
+  <p> 7. Cover with a lid and let them cook for about 2-3 minutes or until the pumpkin are soften but not mushy.</p>
+  <p> 8. Then uncover the lid and give everything a stir. </p>
+  <p> 9. Add the green parts of green onion and toss everything to combine. Taste and add seasonings as needed.</p>
+  <p> 10. Serve immediately </p>
+
+    </div>
+  
+<div class="container">
+    <button id="showImageBtn">Enjoy!</button>
+    <img src="images/final.png" id="hiddenImage" style="display: none;" />
+</div>
+
+
+    <script>
+const showImageButton = document.getElementById('showImageBtn');
+const hiddenImage = document.getElementById('hiddenImage');
+let isImageVisible = false;
+
+showImageButton.addEventListener('click', function() {
+    if (!isImageVisible) {
+        hiddenImage.style.display = 'block';
+        isImageVisible = true;
+    } else {
+        hiddenImage.style.display = 'none';
+        isImageVisible = false;
+    }
+});
+    </script>
+
+
+
+
+</html>

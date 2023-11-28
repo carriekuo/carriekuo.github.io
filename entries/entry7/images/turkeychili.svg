@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 629.2 207.8" style="enable-background:new 0 0 629.2 207.8;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
@@ -11,10 +11,15 @@
 	.st5{font-family:'SportingGrotesque-Regular';}
 	.st6{font-size:12px;}
 	.st7{fill:none;}
-	.st8{font-family:'KdamThmorPro-Regular';}
-	.st9{font-size:56px;}
+	.st8{enable-background:new    ;}
+	.st9{font-family:'Dogica_Pixel';}
+	.st10{font-size:40px;}
+	.st11{font-family:'NeulisCursive-Italic';}
+	.st12{font-size:54.7047px;}
+	.st13{font-family:'GB18030Bitmap';}
+	.st14{font-size:35.3319px;}
 </style>
-<g id="Layer_1">
+<g id="Layer_1_00000090276093819756378210000010670431653154065842_">
 	<g id="Layer_1_00000137825011056906411780000006006002828999248296_" class="st0">
 		<rect y="6" class="st1" width="629.2" height="201.8"/>
 		<g class="st2">
@@ -23,10 +28,12 @@
 		</g>
 	</g>
 	<g id="Layer_2_00000021835445684010811090000016307974674334453153_">
-		<rect x="27.8" y="70.8" class="st7" width="595.1" height="89.9"/>
-		<text transform="matrix(1 0 0 1 27.8168 117.9609)" class="st8 st9">Tomato Egg Drop Soup</text>
+		<rect x="-76.7" y="61.6" class="st7" width="808.7" height="122.2"/>
+		<text transform="matrix(1 0 0 1 162.6923 61.5543)" class="st8"><tspan x="0" y="0" class="st9 st10">Stir-fried </tspan><tspan x="-126.8" y="65.6" class="st9 st10">Vermicelli Noodles</tspan><tspan x="443.2" y="65.6" class="st11 st12"> </tspan></text>
+		<rect x="129.1" y="153.5" class="st7" width="371" height="74.7"/>
+		<text transform="matrix(1 0 0 1 261.6015 188.8651)" class="st13 st14">炒米粉</text>
 	</g>
 </g>
-<g id="Layer_2">
+<g id="Layer_2_00000072966149707711585220000009804642204603007129_">
 </g>
 </svg>

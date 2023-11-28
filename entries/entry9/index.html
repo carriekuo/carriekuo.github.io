@@ -46,7 +46,7 @@
 <div class="heading"> Instructions: </div>
 
 <button id="add">Next Step</button>
-  <ul id="stepsList"></ul>
+  <ol id="stepsList"></ol>
 
 
   <script>
@@ -69,7 +69,7 @@
 
         if (currentStep <= steps.length) {
             const listItem = document.createElement('li');
-            listItem.textContent = currentStep + '. ' + steps[currentStep - 1];
+            listItem.textContent = steps[currentStep - 1];
             stepsList.appendChild(listItem);
         } else {
             // All steps are displayed

@@ -1,0 +1,166 @@
+body{
+    background: black;
+}
+
+#titlesvg {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  fill: #F25116;
+}
+
+.heading{
+    font-size: 80px;
+    font-family: 'Nova Square', sans-serif;
+    color:#C5F263;
+    border:20px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.heading2{
+    font-size: 80px;
+    font-family: 'Nova Square', sans-serif;
+    color:#A2A6F2;
+    border:20px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 30%;
+}
+
+p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    color: #A2A6F2;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+
+
+}
+
+.words {
+    color: white;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color:#C5F263;
+}
+
+#cabbage:hover {
+   content: url("images/cabbage2.png");
+   width: 100%;
+    height: auto;
+   object-fit: initial;
+} 
+
+#pumpkin:hover {
+   content: url("images/pumpkin2.png");
+   width: 100%;
+    height: auto;
+   object-fit: initial;
+} 
+
+#garlic:hover {
+   content: url("images/garlic2.png");
+   width: 100%;
+    height: auto;
+   object-fit: initial;
+} 
+
+#onion:hover {
+   content: url("images/onion2.png");
+   width: 100%;
+    height: auto;
+   object-fit: initial;
+} 
+
+#scallion:hover {
+   content: url("images/scallion2.png");
+   width: 100%;
+    height: auto;
+   object-fit: initial;
+} 
+
+#mushroom:hover {
+   content: url("images/mushroom2.png");
+   width: 100%;
+    height: auto;
+   object-fit: initial;
+} 
+
+#noodles:hover {
+   content: url("images/noodles2.png");
+   width: 100%;
+    height: auto;
+   object-fit: initial;
+} 
+
+#eggs:hover {
+   content: url("images/eggs2.png");
+   width: 100%;
+    height: auto;
+   object-fit: initial;
+} 
+
+.ing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+
+}
+.ing img {
+    width: 100%;
+    height: auto;
+}
+
+#hiddenImage {
+    width: 50%;
+    height: auto;
+    margin-left: 30%;
+}
+
+.container {
+    text-align: center;
+    /* Optional: Add other styles for the container */
+}
+
+#showImageBtn {
+  transition-duration: 0.4s;
+}
+
+
+#showImageBtn {
+  background-color: #F25116; 
+  color: black;
+  font-family: 'Pixelify Sans', sans-serif;
+  padding: 20px 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align:  center;
+  margin-bottom: 200px;
+  width: 250px;
+
+}
+#showImageBtn:hover {
+  background-color: #3BD97F; 
+  color: white;
+  font-family: 'Pixelify Sans', sans-serif;
+  padding: 20px 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align:  center;
+  margin-bottom: 200px;
+  width: 250px;
+}
+
+
+
+
+
+
+
+
+
