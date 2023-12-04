@@ -116,12 +116,6 @@ p{
     height: auto;
 }
 
-#hiddenImage {
-    width: 50%;
-    height: auto;
-    margin-left: 30%;
-}
-
 .container {
     text-align: center;
     /* Optional: Add other styles for the container */
@@ -157,7 +151,69 @@ p{
 }
 
 
+.final img{ 
+    width: 50%;
+    height: auto;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
 
+
+/*
+.navcontainer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(5, 1fr); 
+  padding: 0;
+}
+
+
+
+.button {
+    padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; 
+  font-family: monospace; 
+  border-radius: 60%;  
+}
+.button:hover {
+    background-color: yellow;
+    text-decoration: underline;
+
+}
+
+*/
+
+
+
+
+
+
+
+
+.navcontainer {
+    display: flex;
+    justify-content: space-between;
+  padding: 0;
+  align-items: center;
+}
+
+
+
+.button {
+padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex; 
+  font-family: monospace; 
+  border-radius: 60%;  
+}
+.button:hover {
+    background-color: yellow;
+    text-decoration: underline;
+
+}
 
 
 

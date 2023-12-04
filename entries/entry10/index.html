@@ -5,6 +5,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Pixelify+Sans&family=Rajdhani&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
+   <link rel="icon" href="images/favicon.png" type="image/x-icon">
+      <title>Stir-fried Vermicelli Noodles</title>
         
 
 	</head>
@@ -91,28 +93,21 @@
     </div>
   
 <div class="container">
+  <a href="#final">
     <button id="showImageBtn">Enjoy!</button>
-    <img src="images/final.png" id="hiddenImage" style="display: none;" />
 </div>
 
 
-    <script>
-const showImageButton = document.getElementById('showImageBtn');
-const hiddenImage = document.getElementById('hiddenImage');
-let isImageVisible = false;
-
-showImageButton.addEventListener('click', function() {
-    if (!isImageVisible) {
-        hiddenImage.style.display = 'block';
-        isImageVisible = true;
-    } else {
-        hiddenImage.style.display = 'none';
-        isImageVisible = false;
-    }
-});
-    </script>
+<div class="final" id="final">
+    <img src="images/final.png">
+</div>
 
 
+<div class="navcontainer">
+  <div class="button"> <a href="../../entries/entry9/index.html"> prev </div>
+  <div class="button"> <a href="https://carriekuo.github.io/"> all recipes </div>
+  <div class="button"> <a href="../../entries/entry1/index.html"> next </div>
+</div>
 
 
 </html>

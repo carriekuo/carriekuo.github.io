@@ -68,6 +68,29 @@ line-height: 100%;
 
 
 
+.navcontainer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(5, 1fr); 
+  padding: 0;
+}
+
+
+
+.button {
+    padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; 
+  font-family: monospace; 
+  border-radius: 60%;  
+}
+.button:hover {
+    background-color: lightblue;
+    text-decoration: underline;
+
+}
+
 
 
 

@@ -17,17 +17,31 @@ body{
   }
 }
 
-.heading{
+.heading1{
     font-size: 80px;
     font-family: 'Kdam Thmor Pro', sans-serif;
     border:20px;
     line-height: 100%;
+    text-align: center;
+    margin-block: 50px;
+
+}
+
+.heading2{
+    font-size: 80px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border:20px;
+    line-height: 100%;
+    text-align: center;
+     margin-block: 100px;
+     margin-top: 250px;
 
 }
 
 .ing-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 30px; 
 
 
 }
@@ -38,7 +52,7 @@ body{
 
 
 #add{
-    margin-left: 10%;
+    align-items: center;
     font-size: monospace;
 }
 
@@ -55,18 +69,50 @@ body{
 .review {
      font-family: 'Ubuntu', sans-serif;
      line-height: 1.5;
-     margin-right: 60px;
+     margin-right: 10px;
 
 }
-.container {
+.finalcontainer {
   display: flex;
   align-items: center; /* Optional: Align vertically */
 }
 
-.container img {
+.finalcontainer img {
   width: 60%; /* Set your image width */
   height: auto; /* Maintain aspect ratio */
   margin-right: 10px; /* Optional: Adjust spacing between image and text */
+  margin-top: 200px;
 }
+
+
+
+.navcontainer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(5, 1fr); 
+  padding: 0;
+}
+
+
+
+.button {
+    padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; 
+  font-family: monospace; 
+  border-radius: 60%;  
+}
+.button:hover {
+    background-color: yellow;
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
 
 

@@ -116,4 +116,29 @@ body{
 
 
 
+.navcontainer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(5, 1fr); 
+  padding: 0;
+}
+
+
+
+.button {
+padding: 16px 32px;
+color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; 
+  font-family: monospace; 
+  border-radius: 60%;  
+}
+.button:hover {
+    background-color: yellow;
+    text-decoration: underline;
+
+}
+
+
 
