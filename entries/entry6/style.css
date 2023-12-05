@@ -15,7 +15,7 @@ line-height: 100%;
 }
 
 .hover:hover{
-    content: url("images/after.png");
+    content: url("images/after.PNG");
    height: auto;
    object-fit: initial;
 }
@@ -87,10 +87,12 @@ line-height: 100%;
 }
 .button:hover {
     background-color: lightblue;
-    text-decoration: underline;
-
+/*    text-decoration: underline;*/
 }
 
+a, a:hover{
+    text-decoration: none;
+}
 
 
 
