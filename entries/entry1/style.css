@@ -11,8 +11,7 @@ h1 {
     font-kerning: 5px;
 }
 
-
-#finalsvg {
+.final img{
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -20,6 +19,8 @@ h1 {
   margin-bottom: 200px;
   margin-top: 200px;
 }
+
+
 
 
 .heading{
