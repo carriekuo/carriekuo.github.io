@@ -1,23 +1,113 @@
+body{
+    background: #038C5A
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    color:pink;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 100px;
+    font-kerning: 5px;
+}
+
+
+#finalsvg {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+
+
+.heading{
+    font-size: 80px;
+    font-family: 'Nova Square', sans-serif;
+    color:#C5F263;
+    border:20px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.heading2{
+    font-size: 80px;
+    font-family: 'Nova Square', sans-serif;
+    color:#F2E744;
+    border:20px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 30%;
+}
+
+
+
+.ing-grid {
+    display: grid;
+    margin-top: 80px;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr); 
+
+}
+.ing img {
+    width: 100%;
+    height: auto;
+}
+
+.words {
+    color: white;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color:#C5F263;
+}
+
+
+
+
+p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    color: #F2E744;
+    text-align: center;
+
+
+
+}
+
 .navcontainer {
     display: grid;
     justify-content: space-between;
     grid-template-columns: repeat(5, 1fr); 
   padding: 0;
-  margin-top:50px;
+  margin-top: 100px;
 }
 
 
 
 .button {
-    padding: 16px 32px;
+padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block; 
-  font-family: monospace; 
-  border-radius: 60%;  
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 70%;  
 }
 .button:hover {
-    background-color: yellow;
-    text-decoration: underline;
+  background-color: yellow;*/*/
+/*    text-decoration: underline;*/
+}
 
+a, a:hover{
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: red;
+}
+
+a {
+    color: white;
 }

@@ -92,9 +92,17 @@ transition: 1s ease;
 }
 
 
+@media screen and (max-width: 991px) {
 
+.ing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    max-width: fit-content;
 
+}
 
-
+body {
+  background: pink;
+}
 
 

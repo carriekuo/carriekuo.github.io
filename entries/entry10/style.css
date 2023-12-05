@@ -52,67 +52,69 @@ p{
 
 #cabbage:hover {
    content: url("images/cabbage2.png");
-   width: 100%;
+   width: 50%;
     height: auto;
    object-fit: initial;
 } 
 
 #pumpkin:hover {
    content: url("images/pumpkin2.png");
-   width: 100%;
+   width: 50%;
     height: auto;
    object-fit: initial;
 } 
 
 #garlic:hover {
    content: url("images/garlic2.png");
-   width: 100%;
+   width: 50%;
     height: auto;
    object-fit: initial;
 } 
 
 #onion:hover {
    content: url("images/onion2.png");
-   width: 100%;
+   width: 50%;
     height: auto;
    object-fit: initial;
 } 
 
 #scallion:hover {
    content: url("images/scallion2.png");
-   width: 100%;
+   width: 50%;
     height: auto;
    object-fit: initial;
 } 
 
 #mushroom:hover {
    content: url("images/mushroom2.png");
-   width: 100%;
+   width: 50%;
     height: auto;
    object-fit: initial;
 } 
 
 #noodles:hover {
    content: url("images/noodles2.png");
-   width: 100%;
+   width: 50%;
     height: auto;
    object-fit: initial;
 } 
 
 #eggs:hover {
    content: url("images/eggs2.png");
-   width: 100%;
+   width: 50%;
     height: auto;
    object-fit: initial;
 } 
 
 .ing-grid {
     display: grid;
+    margin-top: 80px;
+    align-items: center;
     grid-template-columns: repeat(3, 1fr); 
 
 }
 .ing img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -192,11 +194,13 @@ p{
 
 
 
+
 .navcontainer {
-    display: flex;
+    display: grid;
     justify-content: space-between;
+    grid-template-columns: repeat(7, 1fr); 
   padding: 0;
-  align-items: center;
+  margin-top: 100px;
 }
 
 
@@ -205,15 +209,28 @@ p{
 padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-flex; 
-  font-family: monospace; 
-  border-radius: 60%;  
+  display: inline-block; 
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 70%;  
 }
 .button:hover {
-    background-color: yellow;
-    text-decoration: underline;
+  background-color: yellow;*/*/
+/*    text-decoration: underline;*/
+}
+
+a, a:hover{
+    text-decoration: none;
 
 }
+
+a:hover{
+    color: red;
+}
+
+a {
+    color: white;
+}
+
 
 
 
