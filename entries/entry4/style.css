@@ -16,13 +16,15 @@ margin-top: 30px;
 }
 
 h1{
-font-family: 'Petit Formal Script', cursive;
+font-family: 'Fugaz One', sans-serif;
 color: #fb8b24;
-font-size: 200px;
+font-size: 150px;
 padding: 10px;
 border:20px;
 margin: -5px;
 line-height: 100%;
+margin-top: 200px;
+
 }
 
 .container {
